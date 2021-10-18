@@ -34,7 +34,7 @@ jobs:
         heroku_api_key: ${{secrets.HEROKU_API_KEY}}
         heroku_app_name: "albelli-back" #Must be unique in Heroku
         heroku_email: "sixtus2000gh@yahoo.co.uk"
-        branch: "develop"
+        branch: "main"
         remote_branch: "master"
         run: npm install &&  npm run production
 
